@@ -307,7 +307,7 @@ bird.animations[3].sprite.src = "img/bird/bilal.jpeg";
 SFX.start.src = "sfx/start.wav";
 SFX.flap.src = "sfx/flap.wav";
 SFX.score.src = "sfx/score.wav";
-SFX.hit.src = "sfx/hit.wav";
+SFX.hit.src = "sfx/bilal.wav";
 SFX.die.src = "sfx/die.wav";
 
 function gameLoop() {
