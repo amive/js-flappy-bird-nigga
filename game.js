@@ -87,7 +87,7 @@ const bg = {
 const pipe = {
   top: { sprite: new Image() },
   bot: { sprite: new Image() },
-  gap: 85,
+  gap: 100,
   moved: true,
   pipes: [],
   draw: function () {
@@ -130,7 +130,7 @@ const bird = {
   x: 50,
   y: 100,
   speed: 0,
-  gravity: 0.125,
+  gravity: 0.2,
   thrust: 3.6,
   frame: 0,
   draw: function () {
