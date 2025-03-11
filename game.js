@@ -169,7 +169,7 @@ const bird = {
         } else {
           this.speed = 0;
           this.y = gnd.y - r;
-          this.rotatation = 90;
+          this.rotatation = 180;
           if (!SFX.played) {
             SFX.die.play();
             SFX.played = true;
