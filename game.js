@@ -126,12 +126,12 @@ const bird = {
     { sprite: new Image() },
     { sprite: new Image() },
   ],
-  rotatation: 1,
+  rotatation: 180,
   x: 50,
   y: 100,
-  speed: 1.5,
+  speed: 2.5,
   gravity: 0.2,
-  thrust: 2.6,
+  thrust: 4.6,
   frame: 0,
   draw: function () {
     let h = this.animations[this.frame].sprite.height;
