@@ -130,7 +130,7 @@ const bird = {
   x: 50,
   y: 100,
   speed: 3.5,
-  gravity: 1,
+  gravity: 0.5,
   thrust: 6.6,
   frame: 0,
   draw: function () {
